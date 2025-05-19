@@ -85,3 +85,63 @@ img {
     border: 1px #3882F6;
     border-radius: 10px;
 }
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.row-of-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 100px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message {
+    text-align: center;
+    font-size: 18px;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.p-third {
+    font-size: 18px;
+    text-align: end;
+}
+
+#p-div {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+}
